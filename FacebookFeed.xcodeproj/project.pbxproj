@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41907C81D2B924A00181C9A /* FBFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41907C71D2B924A00181C9A /* FBFeedCell.swift */; };
 		D45B79A51D2B871B00A5E67E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B79A41D2B871B00A5E67E /* AppDelegate.swift */; };
 		D45B79A71D2B871C00A5E67E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B79A61D2B871C00A5E67E /* FeedViewController.swift */; };
 		D45B79AC1D2B871C00A5E67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45B79AB1D2B871C00A5E67E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D41907C71D2B924A00181C9A /* FBFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFeedCell.swift; sourceTree = "<group>"; };
 		D45B79A11D2B871B00A5E67E /* FacebookFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45B79A41D2B871B00A5E67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D45B79A61D2B871C00A5E67E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				D45B79A41D2B871B00A5E67E /* AppDelegate.swift */,
 				D45B79A61D2B871C00A5E67E /* FeedViewController.swift */,
+				D41907C71D2B924A00181C9A /* FBFeedCell.swift */,
 				D45B79AB1D2B871C00A5E67E /* Assets.xcassets */,
 				D45B79AD1D2B871C00A5E67E /* LaunchScreen.storyboard */,
 				D45B79B01D2B871C00A5E67E /* Info.plist */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41907C81D2B924A00181C9A /* FBFeedCell.swift in Sources */,
 				D45B79A71D2B871C00A5E67E /* FeedViewController.swift in Sources */,
 				D45B79A51D2B871B00A5E67E /* AppDelegate.swift in Sources */,
 			);
