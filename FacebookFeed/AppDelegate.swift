@@ -15,7 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let frame = UIScreen.mainScreen().bounds
+        window = UIWindow(frame: frame)
+        window?.makeKeyAndVisible()
+        
+        let feedVC = FeedViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        let navController = UINavigationController(rootViewController: feedVC)
+        window?.rootViewController = navController
+        
+        let navBarAppearance = UINavigationBar.appearance()
+        navBarAppearance.barTintColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1)
+        
+        navBarAppearance.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        application.statusBarStyle = .LightContent
+        
         return true
     }
 
